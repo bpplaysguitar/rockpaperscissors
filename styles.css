@@ -108,7 +108,7 @@ header h1 {
   box-shadow: 0 0 10px #25292b;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 740px) /* and (-webkit-min-device-pixel-ratio: 4) */ {
+@media only screen and (max-width: 740px) /* and (-webkit-min-device-pixel-ratio: 4) */ {
   body {
     background-color: red;
     color: black;
