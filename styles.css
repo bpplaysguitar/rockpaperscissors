@@ -110,7 +110,8 @@ header h1 {
 
 @media only screen and (max-width: 740px) /* and (-webkit-min-device-pixel-ratio: 4) */ {
   body {
-    background-color: red;
-    color: black;
+    background-color: rgb(26, 80, 141);
+  }
+  #action-message {
   }
 }
