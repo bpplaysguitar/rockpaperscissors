@@ -110,8 +110,44 @@ header h1 {
 
 @media only screen and (max-width: 740px) /* and (-webkit-min-device-pixel-ratio: 4) */ {
   body {
-    background-color: rgb(26, 80, 141);
   }
   #action-message {
+    font-size: 1rem;
+  }
+  .result p {
+    font-size: 2rem;
+  }
+  .choice img {
+    height: 50px;
+  }
+
+  .choice {
+    margin: 0 10px;
+  }
+
+  .score-board {
+    font-size: 2rem;
+  }
+  .badge {
+    font-size: 0.75rem;
+  }
+
+  #user-label {
+    top: 25px;
+    left: -23px;
+  }
+
+  #computer-label {
+    top: 25px;
+    right: -29px;
+  }
+
+  header {
+    background-color: white;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
   }
 }
